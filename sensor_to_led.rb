@@ -1,7 +1,12 @@
 require 'artoo'
 
+# sets Arduino port
 connection :arduino, adaptor: :firmata, port: '/dev/cu.usbmodem1411'
+
+# sets up analog sensor on pin A0
 device :sensor, driver: :analog_sensor, pin: 0, interval: 0.25, upper: 900, lower: 200
+
+# sets up LED on pin 8
 device :led, :driver => :led, :pin => 8
 
 work do
@@ -23,5 +28,3 @@ work do
   }
 
 end
-
-# led.on? ? led.off : led.on
