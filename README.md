@@ -31,6 +31,6 @@ If you would like to clone this repository and run them yourself:
 
   1. sensor_to_led.rb
 
-   * This program takes input from an analog photo sensor, and turns an LED on or off depending on the intensity.
+      * This program takes input from an analog photo sensor, and turns an LED on or off depending on the intensity.
 
-   * The sensor is connected on A0 and the LED is connected on pin 8.
+      * The sensor is connected on A0 and the LED is connected on pin 8.
