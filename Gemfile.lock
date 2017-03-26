@@ -62,7 +62,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  artoo
   artoo-arduino
 
 BUNDLED WITH
