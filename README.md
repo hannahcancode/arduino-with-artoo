@@ -39,7 +39,7 @@ If you would like to clone this repository and run them yourself:
 
       * This program sets up an 8x8 display and turns columns and rows on and off to make the LEDs 'dance'.
 
-      * I limited the number of rows to 5 to suit the number of pins available on my arduino. If you have more pins available (including potentially analog pins that have digital i/o) you can add these rows back in.
+      * I limited the number of rows to 5 (missing R1, R2 and R8) to suit the number of pins available on my arduino. If you have more pins available (including potentially analog pins that have digital i/o) you can add these rows back in.
 
       * Your 8 x 8 display may have different wiring - you can use trial and error to work out which pins connect to which columns and rows if you can't find documentation. Adjust the pins to suit your display.
 
@@ -47,7 +47,7 @@ If you would like to clone this repository and run them yourself:
 
       * Similar sensor_to_led.rb, this program takes input from an analog photo sensor, and turn rows of LEDs on or off depending on the intensity. The columns will 'dance' across the display.
 
-      * The sensor is connected on A0 and the LEDs are connected as above in display.rb (n.b. this uses one less row than display.rb to avoid hitting pin 2, which is Tx on my arduino).
+      * The sensor is connected on A0 and the LEDs are connected as above in display.rb (n.b. this uses one less row than display.rb (misses R1, R2, R7 and R8) to avoid hitting pin 2, which is Tx on my arduino).
 
   4. temperature.rb
 
